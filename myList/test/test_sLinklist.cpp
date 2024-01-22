@@ -38,5 +38,8 @@ int main()
     int x = slList.remove();
     std::cout << "删除 slList[1] = " << x << std::endl;
     show_Alist(slList);
+    slList.append(666);
+    std::cout << "append(666)" << std::endl;
+    show_Alist(slList);
     return 0;
 }

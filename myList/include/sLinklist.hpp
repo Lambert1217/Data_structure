@@ -2,28 +2,7 @@
 
 #include <stdexcept>
 #include "List.hpp"
-
-/**
- * @brief
- * 单链表节点
- * @tparam Elem
- */
-template <class Elem>
-class Node
-{
-public:
-    Elem element;
-    Node<Elem> *next;
-    Node(const Elem &item, Node<Elem> *_next = nullptr)
-    {
-        element = item;
-        next = _next;
-    }
-    Node(Node<Elem> *_next = nullptr)
-    {
-        next = _next;
-    }
-};
+#include "Node.hpp"
 
 /**
  * @brief

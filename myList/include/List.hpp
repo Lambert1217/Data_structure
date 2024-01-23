@@ -4,7 +4,7 @@ template <class Elem>
 class List
 {
 private:
-    void operator=(const Elem &) {}
+    void operator=(const List &) {}
     List(const List &) {}
 
 public:

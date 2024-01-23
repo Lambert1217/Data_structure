@@ -1,6 +1,5 @@
 #include <iostream>
 #include "ArrayStack.hpp"
-#include <string>
 
 using namespace std;
 

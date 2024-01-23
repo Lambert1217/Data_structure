@@ -11,3 +11,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/bin)  # 可执行�
 #set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/bin)  # 动态库
 
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/myList)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/myStack)

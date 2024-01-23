@@ -7,3 +7,4 @@ add_executable(test_LinkStack test/test_LinkStack.cpp)
 
 #practice
 add_executable(fact practice/fact.cpp)
+add_executable(HanoiTower practice/HanoiTower.cpp)

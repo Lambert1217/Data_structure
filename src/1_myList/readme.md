@@ -8,7 +8,8 @@
 
 - Arraylist.hpp 顺序表
 - sLinklist.hpp 单向链表 （节点类 Node --> "../include_shard/Node.hpp"）
-- List.cpp 两个表的基类(接口)
+- List.hpp 两个表的基类(接口)
+- UALdict.hpp 使用（无序）顺序表实现的字典
 
 **./test**
 

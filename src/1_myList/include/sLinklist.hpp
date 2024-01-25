@@ -145,24 +145,4 @@ public:
         return i;
     }
     int length() const override { return count; } // 返回大小
-
-    // 重载[]  O(n)
-    Elem operator[](int index) const override
-    {
-        if (index >= 0 && index < count)
-        {
-            Node<Elem> *temp = head;
-            int i = 0;
-            while (i != index)
-            {
-                temp = temp->next;
-                i++;
-            }
-            return temp->next->element;
-        }
-        else
-        {
-            throw std::out_of_range("Invalid index");
-        }
-    }
 };

@@ -107,17 +107,4 @@ public:
 
     int currPos() const override { return curr; }    // 返回当前pos
     int length() const override { return ListSize; } // 返回大小
-
-    // 重载[]
-    Elem operator[](int index) const override
-    {
-        if (index >= 0 && index < ListSize)
-        {
-            return ListArray[index];
-        }
-        else
-        {
-            throw std::out_of_range("Invalid index");
-        }
-    }
 };

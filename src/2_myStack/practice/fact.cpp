@@ -24,7 +24,6 @@ unsigned long long fact(unsigned int n)
 
 int main()
 {
-
     std::cout << fact(70) << std::endl;
     return 0;
 }

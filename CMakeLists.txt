@@ -13,6 +13,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/bin)  # 可执行�
 #头文件
 include_directories(${CMAKE_CURRENT_LIST_DIR}/include_shared)
 
-add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/myList)
-add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/myStack)
-add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/myQueue)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/src)

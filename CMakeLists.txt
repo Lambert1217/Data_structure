@@ -10,5 +10,9 @@ project(data_structure LANGUAGES CXX)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/bin)  # 可执行文件
 #set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/bin)  # 动态库
 
+#头文件
+include_directories(${CMAKE_CURRENT_LIST_DIR}/include_shared)
+
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/myList)
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/myStack)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/myQueue)

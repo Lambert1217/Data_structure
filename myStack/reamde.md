@@ -4,12 +4,18 @@
 
 **利用模板实现顺序栈和链式栈**
 
+**./include**
+
 - ArrayStack.hpp 顺序栈
 - LinkStack.hpp 链式栈 （节点类 Node --> "../include_shard/Node.hpp"）
+- Stack.hpp 基类(接口)
 
-- Stack.cpp 基类(接口)
+**./test**
 
 - test 测试
+
+**./practice**
+
 - practice 一些小实践
 
 ## **栈实现方法比较**

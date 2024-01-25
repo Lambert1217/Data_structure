@@ -4,10 +4,13 @@
 
 **利用模板实现顺序表和单向链表**
 
+**./include**
+
 - Arraylist.hpp 顺序表
 - sLinklist.hpp 单向链表 （节点类 Node --> "../include_shard/Node.hpp"）
-
 - List.cpp 两个表的基类(接口)
+
+**./test**
 
 - test 测试程序
 

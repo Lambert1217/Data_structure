@@ -6,6 +6,7 @@
 
     - sLinklist.hpp   单向链表
     - LinkStack.hpp   链式栈
+    - LinkQueue.hpp   链式队列
 
 ## Dictionary.hpp ———— 字典接口
 

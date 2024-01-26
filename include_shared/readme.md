@@ -23,3 +23,5 @@ MyTimer::start();
 //待计时代码块
 MyTimer::end();
 ```
+
+## BinNode.hpp ———— 二叉树节点接口类

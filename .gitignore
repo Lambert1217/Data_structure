@@ -1,3 +1,6 @@
 .vscode
 bin
 build
+
+src/4_myBinaryTree/practice/data.txt
+src/4_myBinaryTree/practice/result.txt

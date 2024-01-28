@@ -1,5 +1,7 @@
 add_executable(test_BSTNode ${CMAKE_CURRENT_LIST_DIR}/test/test_BSTNode.cpp)
 add_executable(test_BST ${CMAKE_CURRENT_LIST_DIR}/test/test_BST.cpp)
+add_executable(test_Heap ${CMAKE_CURRENT_LIST_DIR}/test/test_Heap.cpp)
 
 target_include_directories(test_BSTNode PRIVATE ${CMAKE_CURRENT_LIST_DIR}/include)
 target_include_directories(test_BST PRIVATE ${CMAKE_CURRENT_LIST_DIR}/include)
+target_include_directories(test_Heap PRIVATE ${CMAKE_CURRENT_LIST_DIR}/include)
